@@ -12,6 +12,7 @@ permalink: /news/
     <title>Newsletter</title>
     <link rel="stylesheet" href="../css/newspage.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/page.css">
 </head>
 <body>
     <!-- <header class="w-100 h-100">
@@ -36,24 +37,67 @@ permalink: /news/
 
     <section class="featured-article">
         <h2>Featured Article</h2>
-        <!-- need to add shit here -->
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Test</h5> <!-- need to figure out how to add the title here-->
+                <p class="card-text">
+                    Lorem ipsum aslfjnaslf aflkaslf aslfk...
+                </p>
+                <a href="article.html" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
     </section>
 
-    <section class="recent-news">
-        <h2>Recent News</h2>
-        <!-- gotta add here as well -->
-    </section>
 
-    <section class="past-issues">
-        <h2>Past issues</h2>
-        <div class="issue-item">
-            <time datetime="2024-3-25">MARCH 25, 2024</time>
-            <a href=".html">how to live peacefully</a>
+
+    <section class="recent-news row">
+        <h2 class="col-12">Past issues</h2>
+        <div class="issue-item col-sm-6 col-lg-4 card rounded-card card-hover-cyan">
+            <div class="card-body">
+                <a href="issue-155.html">6 things I learned about life</a>
+                <time class="card-date" datetime="2024-03-26">MARCH 26, 2024</time>
+
+            </div>
         </div>
-        <div class="issue-item">
-            <time datetime="2024-03-26">MARCH 26, 2024</time>
-            <a href="issue-155.html">6 things I learned about life</a>
+        <div class="issue-item col-sm-6 col-lg-4 card rounded-card card-hover-cyan">
+            <div class="card-body">
+                <a href="issue-155.html">6 things I learned about life</a>
+                <time class="card-date" datetime="2024-03-26">MARCH 26, 2024</time>
+
+            </div>
         </div>
+        <div class="issue-item col-sm-6 col-lg-4 card rounded-card card-hover-cyan">
+            <div class="card-body">
+                <a href="issue-155.html">6 things I learned about life</a>
+                <time class="card-title" datetime="2024-03-26">MARCH 26, 2024</time>
+
+            </div>
+        </div>
+        <div class="issue-item col-sm-6 col-lg-4 card rounded-card card-hover-cyan">
+            <div class="card-body">
+                <a href="issue-155.html">6 things I learned about life</a>
+                <time class="card-title" datetime="2024-03-26">MARCH 26, 2024</time>
+
+            </div>
+        </div>
+        <div class="issue-item col-sm-6 col-lg-4 card rounded-card card-hover-cyan">
+            <div class="card-body">
+                <a href="issue-155.html">6 things I learned about life</a>
+                <time class="card-title" datetime="2024-03-26">MARCH 26, 2024</time>
+
+            </div>
+        </div>
+
+
+       <!-- card template:
+        <div class="issue-item col-sm-6 col-lg-4 card rounded-card card-hover-cyan">
+            <div class="card-body">
+                <a href="issue-155.html">6 things I learned about life</a>
+                <time class="card-title" datetime="2024-03-26">MARCH 26, 2024</time>
+
+            </div>
+        </div>
+        -->
     </section>
 
     <section class="subscribe py-5">
